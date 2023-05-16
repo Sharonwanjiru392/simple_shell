@@ -1,9 +1,15 @@
 #include "shell.h"
 
 /**
+<<<<<<< HEAD
  * main - Entry point of the program
  * @ac: The argument count
  * @av: argument vector
+=======
+ * main - entry point
+ * @ac: arg count
+ * @av: arg vector
+>>>>>>> 109b3c5df51be11ba09521ddbe8c1bddc17221df
  *
  * Return: 0 on success, 1 on error
  */
@@ -13,9 +19,15 @@ int main(int ac, char **av)
 	int fd = 2;
 
 	asm ("mov %1, %0\n\t"
+<<<<<<< HEAD
 			"add $3, %0"
 			: "=r" (fd)
 			: "r" (fd));
+=======
+		"add $3, %0"
+		: "=r" (fd)
+		: "r" (fd));
+>>>>>>> 109b3c5df51be11ba09521ddbe8c1bddc17221df
 
 	if (ac == 2)
 	{
@@ -42,4 +54,7 @@ int main(int ac, char **av)
 	hsh(info, av);
 	return (EXIT_SUCCESS);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 109b3c5df51be11ba09521ddbe8c1bddc17221df
