@@ -20,10 +20,12 @@
 /* 1 if using system getline() */
 #define USE_GETLINE 0
 #define USE_STRTOK 0
+#define CMD_NORM 0
 
 /* 1 if using system getline() */
 #define USE_GETLINE 0
 #define USE_STRTOK 0
+##define CMD_NORM 0
 
 /**
  * struct liststr - a node in a singly linked list
