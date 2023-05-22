@@ -145,4 +145,3 @@ void remove_comments(char *buf)
 			break;
 		}
 }
-
